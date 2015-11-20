@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <!-- Morris -->
+    <link href="css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="fixed-navigation">
+    <div id="wrapper">
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Name of principal</strong>
+                             </span> <span class="text-muted text-xs block">Principal <b class="caret"></b></span> </span> </a>
+                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a href="login.html">Logout</a></li>
+                        </ul>
+                    </div>
+                    <div class="logo-element">
+                        AMS
+                    </div>
+                </li>
+                <li>
+                <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span></a>
+                </li>
+
+                <li>
+                <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Infographics</span></a> 
+                </li>
+                <li class="active">
+                    <a href="#"><i class="fa fa-cogs"></i> <span class="nav-label">Settings</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+        <div id="page-wrapper" class="gray-bg sidebar-content">
+        <div class="row border-bottom">
+        <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+            <form role="search" class="navbar-form-custom" method="post" action="search_results.html">
+                <div class="form-group">
+                    <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
+                </div>
+            </form>
+        </div>
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <a href="login.html">
+                        <i class="fa fa-sign-out"></i> Log out
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+        </div>
+            <div class="sidebard-panel">
+                <div>
+                    <h4>Notifcation <span class="badge badge-info pull-right">16</span></h4>
+                    <div class="feed-element">
+                        <div class="media-body">
+                            There are many variations of passages of Lorem Ipsum available.
+                            <br>
+                            <small class="text-muted">Today 4:21 pm</small>
+                        </div>
+                    </div>
+                    <div class="feed-element">
+                        <div class="media-body">
+                            TIt is a long established fact that.
+                            <br>
+                            <small class="text-muted">Yesterday 2:45 pm</small>
+                        </div>
+                    </div>
+                    <div class="feed-element">
+                        <div class="media-body">
+                            Many desktop publishing packages.
+                            <br>
+                            <small class="text-muted">Yesterday 1:10 pm</small>
+                        </div>
+                    </div>
+                    <div class="feed-element">
+                        <div class="media-body">
+                            The generated Lorem Ipsum is therefore always free.
+                            <br>
+                            <small class="text-muted">Monday 8:37 pm</small>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal5">Send a notification</button>
+                            
+
+                            <div class="modal inmodal fade" id="myModal5" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h4 class="modal-title">Notification</h4>
+                                            <small class="font-bold">Notify all administrators</small>
+                                        </div>
+                                        <div class="modal-body">
+                                    <div class="row">
+                                    <div class="form-group"><label class="col-sm-2 control-label">Title</label>
+                                        <div class="col-sm-10"><input type="text" class="form-control"></div>
+                                    </div>
+                                    </div>
+
+                                    <br>
+
+                                    <div class="row">
+                                    <div class="form-group"><label class="col-sm-2 control-label">Description</label>
+                                        <div class="col-sm-10">
+                                            <div class="note-editable col-md-12" contenteditable="true" spellcheck="false" data-gramm_id="3aab28cd-a63a-5425-73a1-cc54e3e74f78" data-gramm="true" data-gramm_editor="true" style="overflow: auto; "></div>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            </div>
+            
+            <div class="wrapper wrapper-content">
+                
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                    <div class="ibox-tools">
+                                        <a class="collapse-link">
+                                            <i class="fa fa-chevron-up"></i>
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-user">
+                                            <li><a href="#">Config option 1</a>
+                                            </li>
+                                            <li><a href="#">Config option 2</a>
+                                            </li>
+                                        </ul>
+                                        <a class="close-link">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                        <div class="ibox-content ibox-heading">
+                        <h3>Departments
+                            <div class="stat-percent text-navy">7 <i class="fa fa-level-up"></i></div>
+                        </h3>
+                    </div>
+                        <div class="ibox-content">
+                            <div>
+                                <h4>List
+                                    <br/>
+                            <small class="m-r"><a href="graph_flot.html"> CSE </a> </small>
+                            <small class="m-r"><a href="graph_flot.html"> ISE </a> </small>
+                            <small class="m-r"><a href="graph_flot.html"> ME </a> </small>
+                            <small class="m-r"><a href="graph_flot.html"> CIV </a> </small>
+                            <small class="m-r"><a href="graph_flot.html"> MBA </a> </small>
+                            <small class="m-r"><a href="graph_flot.html"> ECE </a> </small>
+                            <small class="m-r"><a href="graph_flot.html"> EEE </a> </small>
+                            <span class="badge badge-info pull-right">+5</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-user">
+                                    <li><a href="#">Config option 1</a>
+                                    </li>
+                                    <li><a href="#">Config option 2</a>
+                                    </li>
+                                </ul>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content ibox-heading">
+                        <h3>Administrators
+                            <div class="stat-percent text-navy">10 <i class="fa fa-level-up"></i></div>
+                        </h3>
+                    </div>
+                        <div class="ibox-content">
+                            <div>
+                                <h4>List
+                                    <br/>
+                            <small class="m-r"><a href="graph_flot.html"> Pradeep Kumar </a> </small>
+                            <small class="m-r"><a href="graph_flot.html"> Sumit Kumar </a> </small>
+                            <small class="m-r"><a href="graph_flot.html"> Ravi Kumar </a> </small>
+                            <span class="badge badge-info pull-right">+10</span>   
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-content">
+                                    <div>
+                                        <h1 class="m-b-xs">Add an administrator</h1>
+                                        <small></small>
+                                    </div>
+                              <!--   <div>
+                                    <canvas id="lineChart" height="70"></canvas>
+                                </div> -->
+                                <!-- form here -->
+                        <div class="ibox-content">
+                            <form method="get" class="form-horizontal">
+                                <div class="form-group"><label class="col-sm-2 control-label">Admin name</label>
+                                    <div class="col-sm-10"><input type="text" class="form-control"> <!-- <span class="help-block m-b-none">Administrator is the HOD</span> -->
+                                    </div>
+                                </div>
+                                
+                                <!-- <div class="hr-line-dashed"></div> -->
+
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-2">
+                                        <button class="btn btn-white" type="submit">Cancel</button>
+                                        <button class="btn btn-primary" type="submit">Save changes</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+
+                                <div class="m-t-md">
+                                    <small class="pull-right">
+                                        <i class="fa fa-calendar"> </i>
+                                        Last added on {{timestamp}}
+                                    </small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-content">
+                                    <div>
+                                        <h1 class="m-b-xs">Add an department</h1>
+                                        <small></small>
+                                    </div>
+                        <div class="ibox-content">
+                            <form method="get" class="form-horizontal">
+                                <div class="form-group"><label class="col-sm-2 control-label">Department name</label>
+                                    <div class="col-sm-10"><input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group"><label class="col-sm-2 control-label">Select</label>
+
+                                    <div class="col-sm-10">
+                                    <select class="form-control m-b" name="account">
+                                        <option>Admin_CSE</option>
+                                        <option>Admin_ISE</option>
+                                        <option>Admin_ME</option>
+                                        <option>Admin_EEE</option>
+                                    </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-2">
+                                        <button class="btn btn-white" type="submit">Cancel</button>
+                                        <button class="btn btn-primary" type="submit">Save changes</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+
+                                <div class="m-t-md">
+                                    <small class="pull-right">
+                                        <i class="fa fa-calendar"> </i>
+                                        Last added on {{timestamp}}
+                                    </small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-6">
+                                <div class="ibox float-e-margins">
+                                    <div class="ibox-title">
+                                        <h5>Admin list</h5>
+                                        <div class="ibox-tools">
+                                            <a class="collapse-link">
+                                                <i class="fa fa-chevron-up"></i>
+                                            </a>
+                                            <a class="close-link">
+                                                <i class="fa fa-times"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="ibox-content">
+                                        <table class="table table-hover no-margins">
+                                            <thead>
+                                                <th>Name</th>
+                                                <th>Created</th>
+                                                <th>Delete</th>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Admin CSE</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Admin ISE</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Admin EEE</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Admin ECE</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Admin CIV</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Admin MBA</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Admin ME</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                        </div>
+
+
+                    <div class="col-lg-6">
+                                <div class="ibox float-e-margins">
+                                    <div class="ibox-title">
+                                        <h5>Department list</h5>
+                                        <div class="ibox-tools">
+                                            <a class="collapse-link">
+                                                <i class="fa fa-chevron-up"></i>
+                                            </a>
+                                            <a class="close-link">
+                                                <i class="fa fa-times"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="ibox-content">
+                                        <table class="table table-hover no-margins">
+                                            <thead>
+                                                <th>Name</th>
+                                                <th>Created</th>
+                                                <th>Delete</th>
+                                            </thead>                                            
+                                            <tbody>
+                                            <tr>
+                                                <td>CSE</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>ISE</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>ME</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>EEE</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>ECE</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>CIV</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>MBA</td>
+                                                <td><i class="fa fa-calendar"></i> 11:20pm</td>
+                                                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                        </div>
+
+
+                </div>
+
+
+            </div> <!-- end of wrapper wrapper-content -->
+        <div class="footer">
+            <div class="pull-right">
+                <strong>AMS</strong>
+            </div>
+            <div>
+                <strong>Copyright</strong> Vibe &copy; 2014-2015
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Flot -->
+    <script src="js/plugins/flot/jquery.flot.js"></script>
+    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="js/plugins/flot/jquery.flot.spline.js"></script>
+    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="js/plugins/flot/jquery.flot.pie.js"></script>
+    <script src="js/plugins/flot/jquery.flot.symbol.js"></script>
+    <script src="js/plugins/flot/curvedLines.js"></script>
+
+    <!-- Peity -->
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="js/demo/peity-demo.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- Jvectormap -->
+    <script src="js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+
+    <!-- Sparkline -->
+    <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="js/demo/sparkline-demo.js"></script>
+
+    <!-- ChartJS-->
+    <script src="js/plugins/chartJs/Chart.min.js"></script>
+
+    // <script>
+    //     $(document).ready(function() {
+
+    //         var lineData = {
+    //             labels: ["January", "February", "March", "April", "May", "June", "July"],
+    //             datasets: [
+    //                 {
+    //                     label: "Example dataset",
+    //                     fillColor: "rgba(220,220,220,0.5)",
+    //                     strokeColor: "rgba(220,220,220,1)",
+    //                     pointColor: "rgba(220,220,220,1)",
+    //                     pointStrokeColor: "#fff",
+    //                     pointHighlightFill: "#fff",
+    //                     pointHighlightStroke: "rgba(220,220,220,1)",
+    //                     data: [65, 59, 80, 81, 56, 55, 40]
+    //                 },
+    //                 {
+    //                     label: "Example dataset",
+    //                     fillColor: "rgba(26,179,148,0.5)",
+    //                     strokeColor: "rgba(26,179,148,0.7)",
+    //                     pointColor: "rgba(26,179,148,1)",
+    //                     pointStrokeColor: "#fff",
+    //                     pointHighlightFill: "#fff",
+    //                     pointHighlightStroke: "rgba(26,179,148,1)",
+    //                     data: [28, 48, 40, 19, 86, 27, 90]
+    //                 }
+    //             ]
+    //         };
+
+    //         var lineOptions = {
+    //             scaleShowGridLines: true,
+    //             scaleGridLineColor: "rgba(0,0,0,.05)",
+    //             scaleGridLineWidth: 1,
+    //             bezierCurve: true,
+    //             bezierCurveTension: 0.4,
+    //             pointDot: true,
+    //             pointDotRadius: 4,
+    //             pointDotStrokeWidth: 1,
+    //             pointHitDetectionRadius: 20,
+    //             datasetStroke: true,
+    //             datasetStrokeWidth: 2,
+    //             datasetFill: true,
+    //             responsive: true,
+    //         };
+
+
+    //         var ctx = document.getElementById("lineChart").getContext("2d");
+    //         var myNewChart = new Chart(ctx).Line(lineData, lineOptions);
+
+    //     });
+    // </script>
+</body>
+</html>
